@@ -1,0 +1,86 @@
+img {
+    width: 100%;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.logo {
+    max-width: 150px;
+    padding: 10px;
+}
+
+.b-1 {
+    background: #a1bbe8;
+}
+
+.b-2 {
+    background: #7e7e7e;
+}
+
+.test-light {
+    color: #ffff;
+}
+
+.assignee {
+    font-weight: 600;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px !important;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+hr:not([size]) {
+    height: 1.5px;
+}
+
+.content {
+    max-width: 1024px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.date .bold {
+    font-weight: 600;
+}
+
+.m-center {
+    max-width: 135px;
+    margin: 0 auto;
+}
+
+.m-center li {
+    list-style-type: none;
+}
+
+.btn-primary {
+    color: #000;
+    font-size: 15px;
+    padding: 5px 12px;
+    background-color: #a1bbe8;
+    border-color: #a1bbe8;
+}
+
+.title:hover {
+    color: #0000cd;
+    cursor: pointer;
+}

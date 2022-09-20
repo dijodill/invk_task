@@ -1,0 +1,26 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{this.page.title}} | INVK</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="{{'assets/css/theme.css'|theme}}">
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+
+        {% if this.page.id == 'index' %}
+        <!-- Header -->
+            {% partial 'header' %}
+        {% else %}
+            {% partial 'header-2' %}
+        {% endif %}
+        <!-- Content -->
+            {% page %}
+
+        <!-- Footer -->
+            {% partial 'footer' %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{'assets/js/app.js'|theme}}"></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table dippuzen_meetings_'
+    - builder_table_create_dippuzen_meetings_.php
+1.0.3:
+    - 'Updated table dippuzen_meetings_'
+    - builder_table_update_dippuzen_meetings_.php
+1.0.4:
+    - 'Updated table dippuzen_meetings_'
+    - builder_table_update_dippuzen_meetings__2.php
+1.0.5:
+    - 'Updated table dippuzen_meetings_'
+    - builder_table_update_dippuzen_meetings__3.php

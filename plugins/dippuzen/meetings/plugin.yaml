@@ -1,0 +1,12 @@
+plugin:
+    name: 'dippuzen.meetings::lang.plugin.name'
+    description: 'dippuzen.meetings::lang.plugin.description'
+    author: Dippuzen
+    icon: oc-icon-calendar
+    homepage: ''
+navigation:
+    meetings:
+        label: 'dippuzen.meetings::lang.plugin.name'
+        url: dippuzen/meetings/meetings
+        icon: icon-calendar
+        iconSvg: ''

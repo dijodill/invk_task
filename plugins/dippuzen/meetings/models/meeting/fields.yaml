@@ -1,0 +1,22 @@
+fields:
+    title:
+        label: 'Meeting Title'
+        span: auto
+        type: text
+    date:
+        label: 'Date & Time'
+        mode: datetime
+        span: auto
+        type: datepicker
+    participants:
+        label: Participants
+        prompt: 'Add new item'
+        style: default
+        span: auto
+        type: repeater
+        form:
+            fields:
+                participant:
+                    label: 'Add Participant'
+                    span: auto
+                    type: text

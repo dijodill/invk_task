@@ -1,0 +1,2 @@
+[20-Sep-2022 22:53:34 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home2/dippuoqv/invk.dippuzen.com/vendor/composer/platform_check.php on line 24
+[20-Sep-2022 22:53:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home2/dippuoqv/invk.dippuzen.com/vendor/composer/platform_check.php on line 24

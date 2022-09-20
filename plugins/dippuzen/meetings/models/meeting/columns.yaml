@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: ID
+        type: text
+        searchable: true
+        sortable: true
+    title:
+        label: 'Meeting Title'
+        type: text
+        searchable: true
+        sortable: true
+    date:
+        label: Date
+        type: date
+        searchable: false
+        sortable: true

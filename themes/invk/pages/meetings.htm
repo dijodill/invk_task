@@ -1,0 +1,36 @@
+url = "/meetings"
+layout = "default"
+title = "Meetings"
+==
+<?php
+use Dippuzen\Meetings\Models\Meeting;
+  function onStart(){
+      $this["meetings"] = Meeting::all();
+  }
+?>
+==
+<div class="container mt-3">
+
+  <div class="content ms-auto me-auto">
+
+    {% for meeting in meetings|sort %}
+        {% if meeting.participants is not empty %}
+            <div class="meeting-item">
+                <ul class="list-inline">
+                    <li class="list-inline-item title" onclick="idfind({{meeting.id}})">{{meeting.title}}</li>
+                    <li class="list-inline-item date"><span class="bold">Date:</span> {{meeting.date|date("F jS")}} at {{meeting.date|date("g:ia")}} </li>
+                </ul>
+            <h5 class="bold">Participans:</h5>
+            <ul>
+                {% for participant in meeting.participants %}
+                    <li>{{participant.participant}}</li>
+                {% endfor %}
+            </ul>
+            <hr>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+  </div>
+
+</div>

@@ -1,0 +1,10 @@
+name: Meetings
+form: $/dippuzen/meetings/models/meeting/fields.yaml
+modelClass: Dippuzen\Meetings\Models\Meeting
+defaultRedirect: dippuzen/meetings/meetings
+create:
+    redirect: 'dippuzen/meetings/meetings/update/:id'
+    redirectClose: dippuzen/meetings/meetings
+update:
+    redirect: dippuzen/meetings/meetings
+    redirectClose: dippuzen/meetings/meetings
