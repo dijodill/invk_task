@@ -84,3 +84,8 @@ hr:not([size]) {
     color: #0000cd;
     cursor: pointer;
 }
+
+.highlight{
+    font-size: 18px;
+    font-weight: 500;
+}
